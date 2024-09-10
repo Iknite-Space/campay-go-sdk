@@ -9,7 +9,7 @@ import (
 	reflect "reflect"
 
 	campay "github.com/Iknite-Space/campay-go-sdk/campay"
-	gomock "github.com/golang/mock/gomock"
+	gomock "go.uber.org/mock/gomock"
 )
 
 // MockPaymentService is a mock of PaymentService interface.
